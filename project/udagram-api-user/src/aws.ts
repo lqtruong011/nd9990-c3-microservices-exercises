@@ -23,7 +23,7 @@ export function getGetSignedUrl( key: string ): string {
   });
 }
 
-// Generates an AWS signed URL for uploading objects
+// Generates an AWS signed URL for uploading object
 export function getPutSignedUrl( key: string ): string {
   const signedUrlExpireSeconds = 60 * 5;
 
